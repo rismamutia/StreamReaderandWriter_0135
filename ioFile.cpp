@@ -21,5 +21,7 @@ int main(){
         outfile << baris << endl;
     }
     //selesai dalam menulis sekarang tutup filenya
-    outfile.close()
+    outfile.close();
+    //membuka file dalam mode membaca
+    ifstream infile;
 }
